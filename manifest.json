@@ -1,0 +1,26 @@
+{
+  "description": "Firefox dir buster",
+  "manifest_version": 2,
+  "name": "XBurster",
+  "version": "1.1",
+
+  "permissions": [
+    "<all_urls>",
+    "tabs"
+  ],
+
+  "background": {
+    "scripts": ["jquery.js", "x.js"]
+  },  
+
+  "browser_action": {
+    "default_icon": {
+      "16": "favicon-256.png",
+      "32": "favicon-256.png"
+    },
+    "default_title": "XBurster",
+    "default_popup": "popup/choose.html"
+  }
+
+}
+

@@ -1,0 +1,20 @@
+html, body {
+font-family: Helvetica,Verdana;
+width:200px;
+}
+
+.button {
+  margin: 3% auto;
+  padding: 4px;
+  text-align: center;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.btn:hover {
+  background-color: #CFF2F2;
+}
+
+.btn {
+  background-color: #E5F2F2;
+}
